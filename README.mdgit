@@ -1,0 +1,19 @@
+# ivb_og
+initgit
+add
+README.mdgit
+commit
+-m
+first commit
+git
+branch
+-M
+maingit
+remote
+add
+origin
+https://github.com/abushanisro/ivb_og.gitgit
+push
+-u
+origin
+main
