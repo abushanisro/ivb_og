@@ -75,10 +75,17 @@ const Homepage = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8 lg:mb-12">
-              <button className="group flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-sm sm:text-base">
-                Explore Directory
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+           <button
+  onClick={() => {
+    const section = document.getElementById("startup-directory");
+    section?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="group flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
+>
+  Explore Directory
+  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
+</button>
+
               <a
                 href="https://dtxfpni9mqg.typeform.com/to/Jx5xFiDd"
                 target="_blank"
