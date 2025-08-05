@@ -77,7 +77,7 @@ const Homepage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8 lg:mb-12">
            <button
   onClick={() => {
-    const section = document.getElementById("startup-directory");
+    const section = document.getElementById("directory");
     section?.scrollIntoView({ behavior: "smooth" });
   }}
   className="group flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
