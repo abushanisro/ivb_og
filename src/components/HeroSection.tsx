@@ -75,6 +75,7 @@ const Homepage = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8 lg:mb-12">
+      <button        
   onClick={() => {
     const section = document.getElementById("directory");
     section?.scrollIntoView({ behavior: "smooth" });
