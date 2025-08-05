@@ -30,7 +30,7 @@ const Homepage = () => {
         </div>
         <div className="hidden md:flex items-center space-x-8">
           <a href="#" className="px-6 py-2 rounded-full bg-gray-700/50 hover:bg-gray-600/50 transition-all">Home</a>
-          <a href="#" className="px-6 py-2 rounded-full bg-gray-700/50 hover:bg-gray-600/50 transition-all">Directory</a>
+          <a href="/" className="px-6 py-2 rounded-full bg-gray-700/50 hover:bg-gray-600/50 transition-all">Directory</a>
           <a
             href="https://dtxfpni9mqg.typeform.com/to/Jx5xFiDd"
             target="_blank"
