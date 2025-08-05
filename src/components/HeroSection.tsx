@@ -75,7 +75,6 @@ const Homepage = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8 lg:mb-12">
-           <button
   onClick={() => {
     const section = document.getElementById("directory");
     section?.scrollIntoView({ behavior: "smooth" });
@@ -85,8 +84,7 @@ const Homepage = () => {
   Explore Directory
   <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
 </button>
-
-              <a
+  <a
                 href="https://dtxfpni9mqg.typeform.com/to/Jx5xFiDd"
                 target="_blank"
                 rel="noopener noreferrer"
